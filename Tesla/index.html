@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tesla</title>
+</head>
+
+<body>
+    <img src="./img/logo.png" alt="Logo Tesla" class="logo-tesla">
+
+    <ul class="lista">
+
+        <!-- Item 1 -->
+        <li class="item">
+            <video src="./img/model-y.mp4" loop autoplay muted> </video>
+
+            <div class="info-carro">
+                <h1> Model Y </h1>
+                <p class="sub-titulo"> Lease starting at $399/mo* </p>
+            </div>
+
+            <div class="rodape">
+                <button onclick="aparecerFormulario()" class="order-now"> Order Now </button>
+                <button onclick="aparecerFormularioTestDrive()"> Demo drive </button>
+                <p class="texto-rodape">Excludes taxes and fees with price subject to change. Available in select
+                    states. See Details</p>
+            </div>
+        </li>
+
+        <!-- Item 2 -->
+        <li class="item">
+            <img src="./img/model-s.png" alt="Imagem Model S" class="img-tesla">
+
+            <div class="info-carro">
+                <h1 class="h1-modelS"> Model S </h1>
+                <p class="h1-modelS"> Lease starting at $499/mo* </p>
+            </div>
+
+            </div>
+        </li>
+
+        <!-- Item 3 -->
+        <li class="item">
+            <img src="./img/model-x.png" alt="Imagem Model X" class="img-tesla">
+
+            <div class="info-carro">
+                <h1 class="h1-modelX"> Model X </h1>
+                <p class="h1-modelX"> Lease starting at $429/mo* </p>
+            </div>
+
+            </div>
+        </li>
+    </ul>
+
+    <div class="formulario">
+        <button onclick="desaparecerFormulario()">Fechar</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241936800258055"></script>
+    </div>
+
+    <div  class="formularioTestDrive">
+        <button onclick="desaparecerFormularioTestDrive()">Close</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241936378262060"></script>
+    </div>
+
+</body>
+
+<script src="scripts.js"> </script>
+
+</html>
